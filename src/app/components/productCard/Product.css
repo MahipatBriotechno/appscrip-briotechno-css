@@ -59,7 +59,7 @@
   display: flex;
   gap: 0.5rem;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: flex-start;
 }
 .product-title {
   height: 56px;
@@ -97,6 +97,11 @@
 
 @media (max-width: 991px) {
   .product-text {
-    margin-bottom: 6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .product-title {
+    height:auto;
+    margin-top: 5px;
   }
 }

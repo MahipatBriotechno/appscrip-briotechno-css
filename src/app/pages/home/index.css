@@ -1,7 +1,10 @@
 .customizble {
     width: 28%;
 }
-
+.unselect-underline{
+    text-decoration: underline;
+    color: #BFC8CD;
+}
 @media (max-width: 1280px) {}
 
 @media (max-width: 1024px) {

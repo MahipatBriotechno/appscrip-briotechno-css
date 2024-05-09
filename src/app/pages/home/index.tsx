@@ -112,7 +112,7 @@ const Home = () => {
         </div>
         <Accordion title="IDEAL FOR" isShow="true" isFooter={false}>
           <div className="flex flex-col gap-4">
-            <span className="text-base font-normal text-[#BFC8CD] underline font-simplon">
+            <span className="unselect-underline text-base font-normal text-[#BFC8CD] underline font-simplon">
               Unselect all
             </span>
 
@@ -126,7 +126,7 @@ const Home = () => {
         <Accordion title="occasion" isShow="true">
           {" "}
           <div className="flex flex-col gap-4">
-            <span className="text-base font-normal text-[#BFC8CD] underline font-simplon">
+            <span className="unselect-underline text-base font-normal text-[#BFC8CD] underline font-simplon">
               Unselect all
             </span>
             <div>
