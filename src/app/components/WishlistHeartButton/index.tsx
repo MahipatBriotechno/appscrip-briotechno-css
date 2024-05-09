@@ -16,7 +16,7 @@ const WishlistHeartButton = () => {
       onClick={toggleWishlist}
       className={`wishlist-wrp ${
         isInWishList ? "text-red-600" : "text-gray-400"
-      } bg-gray-100`}
+      } `}
     >
       <svg
         width="24"
@@ -35,7 +35,7 @@ const WishlistHeartButton = () => {
       </svg>
 
       <span className="sr-only">
-        {isInWishList ? "Remove from wishlist" : "Add to wishlist"}
+        {/* {isInWishList ? "Remove from wishlist" : "Add to wishlist"} */}
       </span>
     </button>
   );

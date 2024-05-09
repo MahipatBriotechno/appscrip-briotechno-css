@@ -13,6 +13,7 @@ import { useState } from "react";
 import product1 from "../../assets/products/product1.png";
 import product2 from "../../assets/products/product2.png";
 import product3 from "../../assets/products/product3.png";
+import "./index.css";
 
 const Home = () => {
   const [isshow, setShow] = useState<boolean>(true);
@@ -111,7 +112,7 @@ const Home = () => {
         </div>
         <Accordion title="IDEAL FOR" isShow="true" isFooter={false}>
           <div className="flex flex-col gap-4">
-            <span className="text-base font-normal text-[#BFC8CD] underline font-simplon">
+            <span className="unselect-underline text-base font-normal text-[#BFC8CD] underline font-simplon">
               Unselect all
             </span>
 
@@ -125,7 +126,7 @@ const Home = () => {
         <Accordion title="occasion" isShow="true">
           {" "}
           <div className="flex flex-col gap-4">
-            <span className="text-base font-normal text-[#BFC8CD] underline font-simplon">
+            <span className="unselect-underline text-base font-normal text-[#BFC8CD] underline font-simplon">
               Unselect all
             </span>
             <div>
@@ -204,7 +205,7 @@ const Home = () => {
           {/* Filter  */}
 
           {isshow && (
-            <div className="w-[28%] xs:hidden  sm:hidden md:hidden">
+            <div className="customizble w-[28%] xs:hidden  sm:hidden md:hidden">
               <FilterContent />
             </div>
           )}
