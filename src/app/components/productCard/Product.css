@@ -71,9 +71,9 @@
   text-transform: uppercase;
 }
 .product-text {
+  font-size: 14px;
   font-weight: 400;
   color: #4b5563;
-  color: 10px;
 }
 .underline{
   color: #888792;
