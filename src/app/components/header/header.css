@@ -1,0 +1,38 @@
+@media (max-width: 430px) {
+  .desktop-header {
+    display: none;
+  }
+}
+@media (min-width: 430px) and (max-width: 767px) {
+  .desktop-header {
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .desktop-header {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+    .mobile-header {
+        display: none;
+    }
+}
+
+.gap-48{
+    gap: 48px;
+}
+
+.headerLeft{
+    width: 274px;
+}
+
+
+.header-link{
+  color:#252020;
+  text-decoration: none;
+}
+.header-link:hover{
+  color:#252020; 
+}
