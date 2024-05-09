@@ -36,3 +36,12 @@
 .header-link:hover{
   color:#252020; 
 }
+.mobile-menu li{
+  list-style-type: none;
+}
+.mobile-menu li a{
+  color: #252020;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 20px;
+}

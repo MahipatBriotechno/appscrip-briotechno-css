@@ -11,6 +11,7 @@ import searchNormal from "../../assets/svg/search-normal.svg";
 import heart from "../../assets/svg/heart.svg";
 import profile from "../../assets/svg/profile.svg";
 import shoppingBag from "../../assets/svg/shopping-bag.svg";
+import "./header.css"
 
 interface DrawerProps {
   MenuItem: any;
@@ -69,7 +70,7 @@ const Drawer: React.FC<DrawerProps> = ({ MenuItem }) => {
                   <IoClose onClick={() => setIsOpen(false)} />
                 </div>
                 <div>
-                  <ul className="flex flex-col gap-3">
+                  <ul className="mobile-menu flex flex-col gap-3">
                     {MenuItem.map((db: any, index: any) => (
                       <li key={index}>
                         <Link href={`${db.link}`}>{db.title}</Link>
