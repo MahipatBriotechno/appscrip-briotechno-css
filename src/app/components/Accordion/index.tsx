@@ -10,7 +10,7 @@ const Accordion = ({ title, children, isShow, isFooter }: any) => {
 
   return (
     <div className="border-top">
-      <div className="flex-between-padding" onClick={toggleAccordion}>
+      <div className="flex-between-padding border-bottom-1" onClick={toggleAccordion}>
         <div className="width-full-margin">
           <div className="flex-between-padding">
             <h2 className="text-large-bold-uppercase font-simplon">{title}</h2>
@@ -38,7 +38,7 @@ const Accordion = ({ title, children, isShow, isFooter }: any) => {
           {isShow && <span className="text-large-bold-uppercase2 font-simplon">All</span>}
         </div>
       </div>
-      {isOpen && <div className="padding-4-pl-0-pt-0">{children}</div>}
+      {isOpen && <div className="padding-4-pl-0-pt-0 pt-10 pb-10 border-bottom-1">{children}</div>}
     </div>
   );
 };

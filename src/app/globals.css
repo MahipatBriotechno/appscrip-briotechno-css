@@ -2,6 +2,8 @@
 body {
   font-family: 'Simplon Norm', sans-serif !important;
   margin:0px !important;
+  overflow-x: hidden;
+  max-width: 100%;
 }
 
 @font-face { 
@@ -135,8 +137,9 @@ body {
 .flex-between-padding {
   display: flex;
   justify-content: space-between;
-  padding: 0.5rem 1rem; /* Adjust as needed */
-  padding-bottom: 0.5rem;
+  align-items: center;
+  padding: 0.2rem 0rem; /* Adjust as needed */
+  /* padding-bottom: 0.5rem; */
   padding-left: 0;
   cursor: pointer;
 }

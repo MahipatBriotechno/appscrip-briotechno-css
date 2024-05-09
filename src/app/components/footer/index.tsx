@@ -18,7 +18,7 @@ import { GoDotFill } from "react-icons/go";
 
 const Footer = () => {
   const FooterTitle = ({ title }: { title: string }) => {
-    return <h1 className="text-xl font-bold leading-6">{title}</h1>;
+    return <h1 className="FooterTitle">{title}</h1>;
   };
 
   const mettaMuse = [
@@ -93,7 +93,7 @@ const Footer = () => {
         <div style={{ width: "100%", background: "white", height: 0.5 }}></div>
 
         {/* 2 - For Desktop */}
-        <div className="hidden lg:grid lg:grid-cols-3 lg:mt-16 ">
+        <div className="link-sec hidden lg:grid lg:grid-cols-3 lg:mt-16 ">
           <div className="flex-gap-4">
             <FooterTitle title="mettā muse" />
             <div className="flex-gap-3">
