@@ -13,6 +13,7 @@ import { useState } from "react";
 import product1 from "../../assets/products/product1.png";
 import product2 from "../../assets/products/product2.png";
 import product3 from "../../assets/products/product3.png";
+import "./index.css";
 
 const Home = () => {
   const [isshow, setShow] = useState<boolean>(true);
@@ -204,7 +205,7 @@ const Home = () => {
           {/* Filter  */}
 
           {isshow && (
-            <div className="w-[28%] xs:hidden  sm:hidden md:hidden">
+            <div className="customizble w-[28%] xs:hidden  sm:hidden md:hidden">
               <FilterContent />
             </div>
           )}

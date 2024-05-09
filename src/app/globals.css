@@ -234,7 +234,7 @@ body {
 /* Custom CSS */
 .flex-items-start-margin {
   display: flex;
-  align-items: flex-start;
+  align-items: flex-end;
   margin-bottom: 1.25rem; /* Adjust as needed */
   margin-top: 0.25rem; /* Adjust as needed */
 }
@@ -731,4 +731,9 @@ width: 40%;
 }
 .header-filter-click:hover{
  cursor: pointer;
+}
+
+.wishlist-wrp{
+  border:none;
+  background-color: #FFF;
 }

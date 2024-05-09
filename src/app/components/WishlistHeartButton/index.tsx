@@ -35,7 +35,7 @@ const WishlistHeartButton = () => {
       </svg>
 
       <span className="sr-only">
-        {isInWishList ? "Remove from wishlist" : "Add to wishlist"}
+        {/* {isInWishList ? "Remove from wishlist" : "Add to wishlist"} */}
       </span>
     </button>
   );
