@@ -62,7 +62,10 @@
   align-items: flex-start;
 }
 .product-title {
-  height: 56px;
+  text-overflow: ellipsis;
+  width: 225px;
+  white-space: nowrap;
+  overflow: hidden;
   margin-bottom: 0.5rem;
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -71,6 +74,7 @@
   text-transform: uppercase;
 }
 .product-text {
+  margin-top: 5px;
   font-size: 14px;
   font-weight: 400;
   color: #4b5563;
@@ -101,7 +105,15 @@
     margin-bottom: 10px;
   }
   .product-title {
-    height:auto;
     margin-top: 5px;
   }
+}
+
+@media (max-width: 767px) {
+.product-title {
+  text-overflow: ellipsis;
+  width: 140px;
+  white-space: nowrap;
+  overflow: hidden;
+}
 }

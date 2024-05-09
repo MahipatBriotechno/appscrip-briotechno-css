@@ -35,7 +35,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
             className="image-transiation inner-img" // Zoom effect on hover
             layout="responsive"
             width={300}
-            height={300}
+            height={399}
           />
           {newProduct && (
             <div className="new-product">

@@ -201,7 +201,7 @@ const Home = () => {
         </div>
       </Container>
       <Container>
-        <div className=" flex gap-5">
+        <div className=" flex gap-4">
           {/* Filter  */}
 
           {isshow && (

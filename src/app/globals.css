@@ -118,6 +118,7 @@ body {
   font-weight: bold;
   line-clamp: 1;
   text-transform: uppercase;
+  margin-top: 0;
 }
 
 .product-info {
@@ -218,6 +219,10 @@ body {
   display: flex;
   gap: 0.5rem;
   /* Adjust as needed */
+}
+
+.bred-space{
+  padding-left:0;
 }
 
 .text-small-gray {
@@ -621,7 +626,7 @@ body {
 .pr-wrapper {
   display: grid;
   column-gap: 0.75rem;
-  row-gap: 1.5rem;
+  row-gap: 15px;
 }
 
 .herofont1 {
@@ -832,4 +837,9 @@ body {
 .wishlist-wrp {
   border: none;
   background-color: #FFF;
+}
+@media (max-width: 767px) {
+.wishlist-wrp{
+  padding: 0;
+}
 }
